@@ -62,14 +62,15 @@ ul {
   position: relative;
   text-decoration: none;
   font-size: 16px;
-  top: -34px;
+  vertical-align: top;
 }
 
-.weather-temperature .active {
+.weather-temperature a {
   color: rgb(33, 33, 33);
   cursor: default;
+  text-decoration: none;
 }
 
-.weather-temperature .active:hover {
-  text-decoration: none;
+.weather-temperature > * {
+  vertical-align: middle;
 }
